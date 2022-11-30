@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetryproject"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+regex = "^2022.10.31"
+datetime = "^4.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+do_something = 'poetryproject.main:do_something'
